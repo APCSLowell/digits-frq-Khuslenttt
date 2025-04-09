@@ -7,10 +7,10 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-	    Digits <Integer> s = new ArrayList <Integer>();
+	    ArrayList <Integer> s = new ArrayList <Integer>();
 		int digit = 0;
 		int r = num;
-		while( r > 0{
+		while( r > 0){
 			digits = r % 1;
 			r = r/10;
 			s(0,digit);
