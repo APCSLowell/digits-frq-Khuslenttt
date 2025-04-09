@@ -11,10 +11,10 @@ public class Digits
 		int digit = 0;
 		int r = num;
 		if(r == 0){
-			DigitList.add(new Integer(0)
-				      }
-		while( r > 0){
-			DigitList.add(0, new Integer(r%10))
+			DigitList.add(new Integer(0));
+			}
+		while(r > 0){
+			DigitList.add(0, new Integer(r%10));
 			r = r/10;
 		}
 	}
